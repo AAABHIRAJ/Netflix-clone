@@ -1,0 +1,31 @@
+.navbar{
+    height: 80px;
+    width: 100%;
+    position: fixed;
+}
+
+.navbar__black{
+    background-color: black;
+    transition: all 0.3s;
+}
+.navbar__img{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.netflix__logo{
+    height: 110px;
+    position: fixed;
+    top: -10px;
+    left: 30px;
+    cursor: pointer;
+}
+
+.avatar__logo{
+    height: 40px;
+    position: fixed;
+    right: 10px;
+    top: 20px;
+    cursor: pointer;
+}

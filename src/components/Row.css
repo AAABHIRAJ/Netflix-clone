@@ -1,0 +1,45 @@
+.row{
+    margin-left: 10px;
+    
+}
+
+.row__title{
+    color: white;
+    margin: 10px;
+    /* position: fixed; */
+}
+
+.row_posters{
+    display: flex;
+    margin-left: 10px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+}
+
+.row_posters::-webkit-scrollbar{
+    display: none;
+}
+
+.row_poster{
+    height: 120px;
+    margin-right: 10px;
+    transition: transform 300ms;
+    object-fit: contain;
+}
+.row_poster:hover{
+    transform: scale(1.08);
+}
+
+.row_posterLarge{
+    height: 210px;
+    transition: transform 300ms;
+}
+
+.row_posterLarge:hover{
+    transform: scale(1.1);
+}
+
+.movie__name{
+    color: white;
+}

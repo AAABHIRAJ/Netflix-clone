@@ -1,0 +1,120 @@
+.profile{
+    color: white;
+    position: relative;
+}
+
+.profile__body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 20%;
+    right: 20%;
+    left: 20%;
+    position: fixed;
+    max-width: 700px;
+    padding: 30px;
+}
+
+.profile__body > h1{
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #282c2d;
+
+}
+.profile__specs{
+    display: flex;
+}
+
+.profile__logo{
+    height: 60px;
+    margin-right: 20px;
+    
+
+}
+
+.profile__specsRight{
+    width: 100%;
+}
+.profile__email{
+    padding: 5px 0;
+}
+.profile__email:hover{
+    background-color: rgb(101, 95, 95);
+    padding: 10px;
+    cursor: pointer;
+}
+.profile__currentPlan{
+    padding: 5px 0;
+    font-weight: 600;
+    font-size: 19px;
+}
+
+.profile__currentPlan:hover{
+    background-color: rgb(101, 95, 95);
+    padding: 10px;
+    cursor: pointer;
+}
+.profile__renewal{
+    padding: 5px 0;
+    font-weight: 450;
+    font-size: 13px;
+}
+.profile__renewal:hover{
+    background-color: rgb(101, 95, 95);
+    padding: 10px;
+    cursor: pointer;
+}
+.profile__planDetails{
+    padding: 5px 0;
+
+}
+
+.custom__plans{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0;
+    align-items: center;
+    color: rgb(219, 214, 214);
+}
+
+.custom__plans:hover{
+    color: white;
+    cursor: pointer;
+}
+.custom__plans > button{
+    height: 35px;
+    padding: 0 25px;
+    cursor: pointer;
+    color: white;
+    background-color: #e50914;
+    border: none;
+}
+
+.custom__plans:hover > button{
+    background-color: #ab050d;
+}
+
+
+.custom__plan{
+    margin: 0 20px;
+    padding: 5px;
+}
+.custom__plan > strong{
+    font-size: 15px;
+}
+
+.custom__plan > p{
+    font-size: 12px;
+}
+
+.profile__specsRight > button{
+    height: 34px;
+    width: 100%;
+    cursor: pointer;
+    color: white;
+    background-color: #e50914;
+    font-weight: 550;
+    border: none;
+
+}
